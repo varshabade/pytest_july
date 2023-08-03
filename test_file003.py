@@ -1,3 +1,4 @@
+import allure
 class Test_Credence_003:
 
     def test_mul_004(self):

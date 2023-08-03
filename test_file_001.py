@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+import allure
 class Test_sum1:
 
 

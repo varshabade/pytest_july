@@ -1,9 +1,11 @@
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import allure
 
 
 class Test_Credence_002:
-
+    @pytest.mark.skip
     def test_CredKart_Login_008(self):
         driver = webdriver.Chrome()
         driver.maximize_window()
