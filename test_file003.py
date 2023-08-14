@@ -1,6 +1,6 @@
 import allure
 #This is Test file 3
-#this is test build trigger
+#this is test build trigger webhook
 class Test_Credence_003:
 
     def test_mul_004(self):
